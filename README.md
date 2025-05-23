@@ -42,9 +42,6 @@ Both apps read their settings from `appsettings.json` (or environment-overrides)
 ### Generator
 
 ```json
-// -----------------------------------------------------------------
-// FileParameters (Storage)
-// -----------------------------------------------------------------
 "Storage": {
   "OutputPath":          "data/big.txt",
 
@@ -61,9 +58,6 @@ Both apps read their settings from `appsettings.json` (or environment-overrides)
   "MaxNumber":           1000000
 },
 
-// -----------------------------------------------------------------
-// PipelineOptions
-// -----------------------------------------------------------------
 "Pipeline": {
   "DuplicatePercentage": 15,
 
