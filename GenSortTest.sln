@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generator", "Generator", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sorter", "Sorter", "{AE54D866-CD6A-4B94-822C-DE4B7B03D4FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generator", "Generator\Generator.csproj", "{2F5C883F-7EBF-4AED-9B29-87C0A7A8BB77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorter", "Sorter\Sorter.csproj", "{21D95378-922A-4555-906E-A8D031320D9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F5C883F-7EBF-4AED-9B29-87C0A7A8BB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F5C883F-7EBF-4AED-9B29-87C0A7A8BB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F5C883F-7EBF-4AED-9B29-87C0A7A8BB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F5C883F-7EBF-4AED-9B29-87C0A7A8BB77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D95378-922A-4555-906E-A8D031320D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D95378-922A-4555-906E-A8D031320D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D95378-922A-4555-906E-A8D031320D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D95378-922A-4555-906E-A8D031320D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F5C883F-7EBF-4AED-9B29-87C0A7A8BB77} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{21D95378-922A-4555-906E-A8D031320D9F} = {AE54D866-CD6A-4B94-822C-DE4B7B03D4FC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4ACD0916-F522-492F-97C4-80920D4430DE}
+	EndGlobalSection
+EndGlobal

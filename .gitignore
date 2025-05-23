@@ -1,0 +1,62 @@
+# Ignore RageMP server files
+ragemp_server/
+
+# VS Code workspace settings
+*.code-workspace
+
+# Build output directories
+bin/
+obj/
+out/
+debug/
+release/
+TestResults/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# IDE configuration
+.vs/
+.idea/
+*.DotSettings.user
+.ReSharper*/
+
+# Logs
+*.log
+
+# Temporary or system files
+*.tmp
+*.swp
+*.db
+*.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Environment files
+.env
+.env.*
+*.local
+
+# NuGet packages (optional if restored during build)
+*.nupkg
+packages/
+
+# Node.js - React/Vite frontend
+node_modules/
+dist/
+build/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# Vite cache and dev output
+.vitepress/cache/
+*.vitepress/dist/
+
+# React/Vite specific
+*.cache/
+*.eslintcache
